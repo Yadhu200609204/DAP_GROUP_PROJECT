@@ -1,0 +1,5 @@
+{
+    "type": "pie",
+    "labels": ["SSD", "HDD", "Hybrid"],
+    "values": [60, 30, 10]
+}

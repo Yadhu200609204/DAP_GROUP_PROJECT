@@ -1,0 +1,101 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f3f4f6; /* Softer light background */
+    color: #333; /* Text color */
+}
+
+/* Header styling */
+header {
+    text-align: center;
+    padding: 30px 20px;
+    background-color: #4a90e2; /* Softer blue for header */
+    color: white; /* White text for contrast */
+    border-bottom: 4px solid #3b7fc4; /* Slight contrast for header */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+header .logo {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+header h1 {
+    font-size: 2.2rem;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Tabs styling */
+.tabs {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.tab-button {
+    padding: 12px 25px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #4a90e2; /* Button background matches header */
+    color: white; /* White text */
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.tab-button:hover {
+    background-color: #3b7fc4; /* Slightly darker blue for hover */
+}
+
+/* Tab content styling */
+.tab-content {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 900px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); /* Subtle shadow for content */
+}
+
+.tab-content img {
+    max-width: 100%;
+    border: 2px solid #ddd; /* Softer border */
+    border-radius: 12px;
+    margin-top: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Chart container styling */
+#chart-container-brand,
+#chart-container-storage,
+#chart-container-price {
+    margin: 20px auto;
+    max-width: 100%;
+    text-align: center;
+    padding: 15px;
+    background: #f9fafc; /* Light card-like background for charts */
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styling */
+footer {
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4a90e2;
+    color: white;
+    margin-top: 40px;
+    font-size: 0.9rem;
+    border-top: 4px solid #3b7fc4;
+}
