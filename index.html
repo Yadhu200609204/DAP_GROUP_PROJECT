@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dataset Laptop Insights</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="https://cdn.plotly.com/plotly-latest.min.js"></script>
+</head>
+<body>
+    <header>
+        <img src="/static/images/logo.png" alt="Logo" class="logo">
+        <h1>Dataset Laptop Insights</h1>
+        <p>Explore trends in laptop brands, storage types, and pricing.</p>
+    </header>
+
+    <div class="tabs">
+        <button class="tab-button" data-tab="brand">Brand Frequency</button>
+        <button class="tab-button" data-tab="storage">Storage Distribution</button>
+        <button class="tab-button" data-tab="price">Price Distribution</button>
+    </div>
+
+    <div class="tab-content">
+        <div id="brand" class="tab" style="display: none;">
+            <h2>Brand Frequency</h2>
+            <div id="chart-container-brand"></div>
+            <img src="/static/images/brand_frequency.png" alt="Brand Frequency Chart">
+        </div>
+        <div id="storage" class="tab" style="display: none;">
+            <h2>Storage Distribution</h2>
+            <div id="chart-container-storage"></div>
+            <img src="/static/images/storage_type.png" alt="Storage Distribution Chart">
+        </div>
+        <div id="price" class="tab" style="display: none;">
+            <h2>Price Distribution</h2>
+            <div id="chart-container-price"></div>
+            <img src="/static/images/laptop_price_distribution.png" alt="Price Distribution Chart">
+        </div>
+    </div>
+
+    <script src="/static/js/script.js"></script>
+</body>
+</html>
